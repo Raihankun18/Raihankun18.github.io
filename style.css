@@ -1,0 +1,19 @@
+.jumbotron {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-block-start: 20px;
+}
+
+a,
+a:link {
+  color: #dbd469;
+  text-decoration: none;
+}
+
+.colom4 {
+  color: #be4037f3;
+}
+
+.colorgallery {
+  background-color: #212529;
+}
