@@ -1,54 +1,80 @@
 body {
-    font-family: roboto, sans-serif;
-    margin: 0;
-}
-
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: brown;
-    padding: 10px;
-    width: 100%;
-    height: 80px;
-    position: fixed;
-}
-
-.brand {
-    margin: 0px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: white;
-}
-
-.brand:hover {
-    color: gold;
-    transition-duration: 1s;
-}
-
-.navigation {
-    margin-right: 70px;
-}
-
-.navigation ul,
-.navigation li {
     margin: 0px;
     padding: 0px;
 }
 
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    margin:30px 10px;
+.wrap-header {
+    background-color: violet;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav li a {
+.wrap-brand {
+    margin-left: 20px;
+}
+
+.wrap-brand a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrap-brand a:hover {
+    font-size: 40px;
+    color: blueviolet;
+    transition: 0.9s;
+}
+
+.wrap-nav {
+    
+}
+
+.wrap-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.wrap-nav ul li {
+    list-style: none;
+    padding: 25px;
+}
+
+.wrap-nav ul li a {
     color: white;
     text-decoration: none;
-    text-transform:capitalize;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 15px;
 }
 
-.nav li a:hover {
-    font-size: 30px;
-    transition-duration: 2.5s;
+.wrap-nav ul li a:hover{
+    color: rgb(151, 78, 151);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: .5s ease-in-out;
+}
+
+.skill {
+    background-color: white;
+    padding: 20px 30px !important;
+    border-radius: 15px;
+}
+
+.skill a {
+    color: violet !important;
+}
+
+.skill a:hover {
+    color: rgb(151, 78, 151) !important;
+    font-size: 18px;
 }
